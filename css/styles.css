@@ -1,0 +1,62 @@
+body {
+  
+  font:17px/1.5 Ubuntu, serif;
+  color:#5A495A ;
+  font-weight:300;
+  background-color: #FEFAFF;
+}
+
+.container {
+  padding:65px;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+
+ h3 {
+  color:#633D71;
+  margin:0 0 20px;
+}
+
+code{
+  font-size:14px;
+}
+
+h1, h3 {
+  line-height:1.2;
+}
+
+h1 {
+  font-size:28px;
+  margin:0 0 20px;
+  color:#000;
+}
+
+
+img {
+  max-width:100%;
+}
+
+section {
+  padding:85px;
+  width: 600px;
+  float:right;
+  padding-bottom:50px;
+
+}
+
+aside {
+  width:270px;
+  float:left;
+  position:fixed;
+}
+
+.top{
+  width:100%;
+  display:flex;
+  box-sizing: border-box;
+}
+header {
+
+  position:fixed;
+}
