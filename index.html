@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  <title>Demeshko Katerina</title>
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+
+ <img class="top" scr=".images/top.png" alt="cv" width="1006" height="70" >
+</header>
+
+    <div class="container">
+      <aside>
+        <h1>Demeshko Kate</h1>
+        <img src="./images/ava.jpg" style="width:240px;" class="round" width="250" height="270" ><br />
+        <p>
+          
+          Student of<br />
+          Belarusian State University of Informatics and Radioelectronics <br />
+          Minsk, Belarus<br />
+          <b>Contacts: </b> <br />
+          <b>E-mail:</b> decpumes@gmail.com <br />
+          <b>Tel:</b> +375-29-000-00-00<br />
+          <a href="https://www.linkedin.com/in/katerina-demeshko-165743171/">
+            <img src="./images/linkedin.png" alt="linkedin" style="width:45px;height:45px;border:0;">
+          </a>
+          <a href="https://github.com/Natiedei">
+            <img src="./images/github.jpg" alt="github" style="width:45px;height:45px;border:0;">
+          </a>
+          <a href="https://www.facebook.com/ziskaterina">
+            <img src="./images/facebook.jpg" alt="facebook" style="width:45px;height:45px;border:0;">
+          </a><br />
+        </p>
+      </aside>
+  
+      <section class="content">
+        <h2>About Me</h2>
+        <p>
+            I am a second year student of Belarusian State University of Informatics and Radioelectronics. I studied the basics of algorithmization and programming throughout the year.
+            Now my goal is to gain new experience and skills. And then to apply this knowledge in practice.
+        </p>
+  
+        <h2>Skills </h2>
+        <ul>
+        <li>C++ </li>
+        <li>HTML&CSS</li>
+        <li>SQL</li>
+        <li>JavaScript</li>
+      </ul>
+  
+        <h2>My code</h2> 
+        <p>
+        <h3>Celsius to Fahrenheit</h3>
+        <code>function warmup(temperature) { <br />
+            return temperature * 9/5 + 32;   <br />
+          };</code>
+          
+
+          <h3><br />Money-Exchange</h3>
+          <code> function makeExchange(currency) {<br />
+        
+          const H=50, Q=25, D=10, N=5, P=1;<br />
+          var res = {};<br />
+          if(currency>=10000) return {error: "You are rich, my friend! We don't have so much coins for exchange"};<br />
+          if(currency<=0) return {};<br />
+          else {<br />
+          let half = Math.floor(currency/H);<br />
+          currency = currency - (half*H);<br />
+          if(half > 0) res.H = half;<br />
+          <br />
+          let quaters = Math.floor(currency/Q);<br />
+          currency = currency - (quaters*Q);<br />
+          if(quaters > 0) res.Q = quaters;<br />
+          <br />
+          let dimes = Math.floor(currency/D);<br />
+          currency = currency - (dimes*D);<br />
+          if(dimes > 0) res.D = dimes;<br />
+          <br />
+          let nick = Math.floor(currency/N);<br />
+          currency = currency - (nick*N);<br />
+          if(nick > 0) res.N = nick;<br />
+          <br />
+          let penn = Math.floor(currency/P);<br />
+          currency = currency - (penn*P);<br />
+          if(penn > 0) res.P = penn;<br />
+          }<br />
+          return res;<br />
+          </code>
+           You can find more <a href="https://github.com/Natiedei">here</a>
+        </p>
+  
+        <h2>Education</h2>
+  
+        <p>
+            <ul>
+                <li>1 year in BSUIR</li>
+                <li><a href="https://www.codecademy.com/decpumes7309851391">Codecademy</a></li>
+                <li>Sololearn</li>
+              </ul>
+        </p>
+        
+        <h2> English</h2>
+        <p>
+            I have been learning English since I was 6 and I keep doing it. 
+            <ul>
+                <li>Weekly attend classes with a native speaker</li>
+                <li>Streamline</li>
+                <li>1 year in university</li>
+              </ul> 
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
